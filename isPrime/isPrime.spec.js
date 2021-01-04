@@ -29,18 +29,18 @@ describe("isPrime", () => {
     expect(result).toBe(expectedResult)
   })
 
-  // it("3238479234872 is not a prime", () => {
-  //   const result = isPrime(3238479234872);
-  //   const expectedResult = false;
+  it("3238479234872 is not a prime", () => {
+    const result = isPrime(3238479234872)
+    const expectedResult = false
 
-  //   expect(result).toBe(expectedResult);
-  // });
+    expect(result).toBe(expectedResult)
+  })
 
-  // it("973369606963379 is a prime (Uncomment to run)", () => {
-  // const result = false;
-  //   const result = isPrime(973369606963379);
-  //   const expectedResult = true;
+  it("973369606963379 is a prime (Uncomment to run)", () => {
+    const result = false
+    const result = isPrime(973369606963379)
+    const expectedResult = true
 
-  //   expect(result).toBe(expectedResult);
-  // });
+    expect(result).toBe(expectedResult)
+  })
 })

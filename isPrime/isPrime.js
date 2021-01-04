@@ -4,9 +4,14 @@ export function isPrime(num) {
   } else if (num === 2) {
     return true
   } else if (num > 2) {
+    let newNum = num
+    const numSqrt = Math.sqrt(num)
+    if (numSqrt % 1 === 0) {
+      newNum = numSqrt
+    }
     let isPrime = true
-    for (let i = 2; i <= num; i++) {
-      if (num / i === 0) {
+    for (let i = 2; i <= newNum; i++) {
+      if (newNum / i === 0) {
         isPrime = false
         break
       }
