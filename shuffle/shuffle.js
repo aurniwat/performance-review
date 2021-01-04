@@ -4,6 +4,8 @@
  * @return {number[]}
  */
 export function shuffle(cards) {
-  throw new Error('Not implemented')
+  const random = []
+  for (let i = 0; i < cards.length; i++) {
+    random[index]
+  }
 }
-
